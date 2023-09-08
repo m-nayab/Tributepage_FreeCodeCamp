@@ -1,0 +1,48 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imag{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
+    height:80%;
+   object-fit: contain;
+}  
+.image{
+    background-color: #ffff;
+    padding:20px;
+    margin:20px;
+}
+.container{
+    background-color:#eeeeee;
+    text-align: center;
+}
+
+.main{
+
+    text-align: start;
+}
+h2{
+    text-align: center;
+}
+.box{
+    width:40%;
+    margin-left: auto;
+    margin-right:auto;
+}
+@media screen and (max-width:600px){
+    .box{
+        width:60%;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    h2{
+        font-size:20px;
+    }
+}
